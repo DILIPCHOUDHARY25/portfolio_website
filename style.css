@@ -1,0 +1,91 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #fdfdfd;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to right, #004e92, #000428);
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+}
+
+.hero span {
+  color: #00c6ff;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #00c6ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+main {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  color: #004e92;
+  margin-bottom: 20px;
+}
+
+.skills-list, ul {
+  list-style: disc inside;
+  line-height: 1.6;
+}
+
+.card {
+  background: #f0f6ff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 5px solid #004e92;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #000428;
+  color: white;
+  font-size: 14px;
+}
